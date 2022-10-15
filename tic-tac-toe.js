@@ -53,7 +53,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 item[1].innerHTML=="O" && item[4].innerHTML=="O" && item[7].innerHTML=="O"||
                 item[2].innerHTML=="O" && item[5].innerHTML=="O" && item[8].innerHTML=="O" ||
                 item[0].innerHTML=="O" && item[4].innerHTML=="O" && item[8].innerHTML=="O" ||
-                item[0].innerHTML=="O" && item[4].innerHTML=="O" && item[8].innerHTML=="O" ||
+                item[3].innerHTML=="O" && item[4].innerHTML=="O" && item[5].innerHTML=="O" ||
                 item[2].innerHTML=="O" && item[4].innerHTML=="O" && item[6].innerHTML=="O"){
                 status.innerHTML="Congrajulations! O is the Winner!"
                 status.classList.add("you-won");
